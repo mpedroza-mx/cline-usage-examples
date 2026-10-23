@@ -6,9 +6,9 @@ cline() {
     if [ "$total_secrets_found" -gt 0 ]; then
 
 
-        echo " \033[1;31m🚨 [DANGER]: CRITICAL::: We have detect exposed secrets or credentials in the current repository.
-                Cline execution will be cancelled automatically due security policies.
-                Please, remove the credentials from the code before interacting with the AI.\033[0m"
+        echo "\033[1;31m🚨 [DANGER]: CRITICAL::: We have detect exposed secrets or credentials in the current repository.
+                Cline execution will be automatically cancelled due security policies.
+                Please remove the credentials from the code before interacting with the AI.\033[0m"
 
 
         echo  "BETTERLEAKS REPORT"
